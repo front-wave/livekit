@@ -7,6 +7,7 @@
     "dev": "next dev",
     "deploy": "gh-pages -d build",
     "build": "next build",
+    "predeploy": "npm run build",
     "start": "next start",
     "lint": "next lint"
   },
