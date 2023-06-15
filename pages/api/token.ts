@@ -4,8 +4,8 @@ import { AccessToken } from 'livekit-server-sdk';
 import type { AccessTokenOptions, VideoGrant } from 'livekit-server-sdk';
 import { TokenResult } from '../../lib/types';
 
-const apiKey = process.env.LIVEKIT_API_KEY;
-const apiSecret = process.env.LIVEKIT_API_SECRET;
+const apiKey = process.env.APIfzHEmby758u2;
+const apiSecret = process.env.0ZJ6jjqKltloVS5OQS2KsrF2tEwaKzrO4aLsh2QLTSE;
 
 const createToken = (userInfo: AccessTokenOptions, grant: VideoGrant) => {
   const at = new AccessToken(apiKey, apiSecret, userInfo);
